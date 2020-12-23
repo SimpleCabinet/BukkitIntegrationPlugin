@@ -1,0 +1,9 @@
+name: Bukkitintegration
+version: ${project.version}
+main: pro.gravit.plugin.bukkitintegration.Bukkitintegration
+api-version: 1.15
+commands:
+  cart:
+    description: Get shopping orders.
+    usage: /<command> get|all
+    aliases: [ ]
